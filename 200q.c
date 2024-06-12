@@ -11,7 +11,6 @@ int main()
   }
   printf("Enter the line number to delete: ");
   scanf("%d",&l);
-
   while(i<l&&(c=fgetc(fp))!=EOF) 
   {
     if(c=='\n') 
